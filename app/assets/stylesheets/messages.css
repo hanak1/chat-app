@@ -12,14 +12,40 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-chat a {
+font-size: 10px;
+text-decoration: none;
+color: deepskyblue;
+border: lightblue solid 1px;
+padding: 14px;
 }
 
 .side_messages {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: #ffffff;
+}
 /* チャット */
 
 .chat {
